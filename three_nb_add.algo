@@ -1,0 +1,17 @@
+ALGORITHM hello gmc 
+VAR
+   CH:STRING
+   w:INTEGER:=1
+   v:INTEGER:=0
+
+BEGIN
+read(CH)
+FOR i FROM 0 TO ch.length -1 STEP 1  DO
+    IF (CH[i]==" ") THEN
+    w=w+1
+        
+    END_IF
+    IF (CH[i]==(a or e or i or o or u or y)) THEN
+        v=v+1
+    
+END_FOR 
